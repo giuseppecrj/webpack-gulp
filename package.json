@@ -1,0 +1,33 @@
+{
+  "name": "beginners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "server": "concurrently 'gulp watch' 'lite-server'"
+  },
+  "keywords": [],
+  "author": "Giuseppe Rodriguez <giuseppecrj@gmail.com> (http://github.com/giusepperj)",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "awesome-typescript-loader": "^2.2.4",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "browser-sync": "^2.17.5",
+    "concurrently": "^3.1.0",
+    "connect-history-api-fallback": "^1.3.0",
+    "gulp": "^3.9.1",
+    "ng-annotate-loader": "^0.2.0",
+    "pug-html-loader": "^1.0.9",
+    "pug-loader": "^2.3.0",
+    "standard": "^8.4.0",
+    "ts-loader": "^0.9.3",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.3",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.1",
+    "webpack-stream": "^3.2.0"
+  }
+}
